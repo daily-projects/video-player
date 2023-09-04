@@ -1,0 +1,56 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  background: #fbfafb;
+  padding-top: 3rem;
+}
+
+section {
+  width: 80rem;
+  height: 70vh;
+  border-radius: 1rem;
+}
+
+section video {
+  height: 100%;
+  width: 100%;
+}
+
+section .controls {
+  display: flex;
+  align-items: center;
+  font-size: 1.7rem;
+  gap: 1.5rem;
+  text-transform: uppercase;
+  background: #49387c;
+  padding: 3rem 2rem;
+}
+
+section .controls span {
+  cursor: pointer;
+  color: #dad9e5;
+}
+
+section .controls span:hover {
+  color: white;
+}
+
+section .controls input {
+  margin-left: auto;
+  width: 43rem;
+}
+
+.hide {
+  display: none;
+}
